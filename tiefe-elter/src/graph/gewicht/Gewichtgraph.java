@@ -47,8 +47,6 @@ public class Gewichtgraph extends Graph {
         for (int i = 0; i < kanten.length; i++) {
             this.neuekante(kanten[i][0], kanten[i][1], kanten[i][2]);
         }
-
-        System.out.println("g " + this.nachbar.size());
     }
 
     // Mache einen neuen Knoten, und gib den Index des Knotens aus.
